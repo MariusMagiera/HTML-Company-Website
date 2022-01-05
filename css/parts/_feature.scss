@@ -1,0 +1,46 @@
+/* Feature Bereich */
+
+.features {
+    padding-top: $landing-padding;
+    padding-bottom: $landing-padding - 25px;
+}
+
+.feature-icon {
+    width: 70px;
+    height: 60px;
+    padding-top: 10px;
+    background-color: black;
+    border-radius: 35px;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    float: left;
+    @media ($bp-larger-than-phablet) {
+        display: none;
+    }
+    @media ($bp-larger-than-tablet) {
+        display: block;
+    }
+}
+
+.feature-icon:hover {
+    transform: rotate(360deg);
+    transition: all 1s;
+}
+
+.feature-text {
+    margin-left: 90px;
+    @media ($bp-larger-than-phablet) {
+        margin-left: 0px;
+    }
+    @media ($bp-larger-than-tablet) {
+        margin-left: 90px;
+    }
+}
+
+.feature-text h5 {
+    margin-bottom: 2px;
+    font-weight: bold;
+    font-size: 120%;
+    color: rgb(30, 30, 30);
+}

@@ -1,0 +1,81 @@
+/* Kontakt */
+
+.contact {
+    background-color: #2d3442cc;
+    padding-top: $landing-padding;
+    padding-bottom: $landing-padding;
+}
+
+.contact-header {
+    font-weight: lighter;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.contact-subheader {
+    color: white;
+    font-weight: lighter;
+}
+
+.contact-methods {
+    color: white;
+    list-style-type: none;
+}
+
+.contact-methods li {
+    width: 50%;
+    float: left;
+    font-weight: lighter;
+    height: 2.5em;
+    @media ($bp-larger-than-phablet) {
+        width: 100%;
+        float: none;
+    }
+    @media ($bp-larger-than-desktop) {
+        width: 50%;
+        float: left;
+    }
+}
+
+.contact-methods .fa {
+    font-size: 150%;
+}
+
+.contact-icon {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+}
+
+.contact-form {
+    margin-bottom: 0px;
+}
+
+.contact-input {
+    width: 100%;
+    margin-bottom: 28px;
+}
+
+.contact-message {
+    height: 143px;
+}
+
+.contact-input:focus,
+input.contact-input:focus {
+    border: 1px solid grey;
+    background-color: rgb(235, 235, 235);
+}
+
+input.contact-submit[type="submit"] {
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 0px;
+}
+
+// alternative to placeholder (use modernizer to implement alternative)
+// .contact-label {
+//     color: white;
+//     display: none;
+// }
+// .no-placeholder .no-contact-label {
+//     display: block;
+// }

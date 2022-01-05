@@ -1,0 +1,401 @@
+/* trial comment */
+
+body {
+    font-family: 'Mulish', sans-serif;
+    ;
+}
+
+p {
+    color: rgb(117, 117, 117);
+}
+
+
+/* Header Bereich */
+
+.header {
+    height: 620px;
+    background-image: url("../img/header_dark.jpg");
+    background-size: cover;
+    background-position: 50% 65%;
+}
+
+.header-navbar-links {
+    color: white;
+    float: right;
+    margin-top: 50px;
+}
+
+.header-navbar-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-navbar-links a:hover {
+    text-decoration: none;
+    color: grey;
+    transition: all 1s;
+}
+
+.header-navbar-links li {
+    float: left;
+    list-style-type: none;
+    margin-left: 26px;
+    text-shadow: 0px 0px 3px black;
+}
+
+.header-brand-wrapper {
+    margin-top: 50px;
+    float: left;
+}
+
+.header-brand {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 150%;
+    display: block;
+    margin-top: -10%;
+    text-shadow: 0px 0px 3px black;
+}
+
+.header-brand:hover {
+    color: grey;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 150%;
+    display: block;
+    margin-top: -5%;
+    text-shadow: 0px 0px 3px black;
+    transition: all 0.5s;
+}
+
+.slogan {
+    padding-top: 100px;
+    color: white;
+    text-align: center;
+    text-shadow: 0px 0px 3px black;
+}
+
+.slogan-top {
+    font-size: 170%;
+    font-weight: lighter;
+}
+
+.slogan-bottom {
+    font-size: 260%;
+    font-weight: bold;
+}
+
+.slogan-button {
+    color: white;
+    text-shadow: 0px 0px 3px black;
+}
+
+.slogan-button:hover,
+.slogan-button a:hover {
+    color: grey;
+}
+
+.slogan-button a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Service Bereich */
+
+.service {
+    padding-top: 100px;
+    padding-bottom: 75px;
+}
+
+.service-grey {
+    background-color: rgb(245, 245, 245);
+}
+
+.service-title {
+    color: rgb(30, 30, 30);
+    font-weight: lighter;
+}
+
+.service-icon {
+    color: rgb(224, 224, 224);
+    font-size: 1400%;
+    text-align: center;
+    margin-bottom: -15%;
+}
+
+
+/* Feature Bereich */
+
+.features {
+    padding-top: 100px;
+    padding-bottom: 75px;
+}
+
+.feature-icon {
+    width: 70px;
+    height: 60px;
+    padding-top: 10px;
+    background-color: black;
+    border-radius: 35px;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    float: left;
+}
+
+.feature-icon:hover {
+    transform: rotate(360deg);
+    transition: all 1s;
+}
+
+.feature-text {
+    margin-left: 90px;
+}
+
+.feature-text h5 {
+    margin-bottom: 2px;
+    font-weight: bold;
+    font-size: 120%;
+    color: rgb(30, 30, 30);
+}
+
+
+/* Kundenbewertungen */
+
+.clients,
+.team {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-weight: lighter;
+}
+
+.clients-heading,
+.team-header {
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.clients-subheading,
+.team-subheader {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.team-image,
+.client-image {
+    width: 100%;
+    border-radius: 10000px;
+    border: 2px solid white;
+}
+
+.client-quote {
+    border: 2px solid rgb(242, 242, 242);
+    background-color: white;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 35px;
+    padding-bottom: 32px;
+    border-radius: 3px;
+    font-size: 120%;
+    font-style: italic;
+    position: relative;
+}
+
+.client-quote p {
+    margin-bottom: 3px;
+}
+
+.quote-author {
+    font-style: normal;
+    font-size: 75%;
+    color: rgb(119, 147, 197);
+}
+
+.client-quote-arrow,
+.client-quote-arrow-border,
+.client-quote-arrow2,
+.client-quote-arrow-border2 {
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: 50%;
+}
+
+.client-quote-arrow-border {
+    left: -30px;
+    margin-top: -15px;
+    border: 15px solid transparent;
+    border-right: 15px solid rgb(242, 242, 242);
+}
+
+.client-quote-arrow {
+    left: -26px;
+    margin-top: -13px;
+    border: 13px solid transparent;
+    border-right: 13px solid white;
+}
+
+.client-quote-arrow-border2 {
+    right: -30px;
+    margin-top: -15px;
+    border: 15px solid transparent;
+    border-left: 15px solid rgb(242, 242, 242);
+}
+
+.client-quote-arrow2 {
+    right: -26px;
+    margin-top: -13px;
+    border: 13px solid transparent;
+    border-left: 13px solid white;
+}
+
+
+/* Team */
+
+.team {
+    background-color: rgb(30, 30, 30);
+}
+
+.team-header {
+    color: white;
+}
+
+.team-subheader {
+    color: rgb(117, 117, 117);
+}
+
+.team-image {
+    max-width: 75%;
+    text-align: center;
+}
+
+.team-image-container {
+    text-align: center;
+}
+
+.team-name {
+    margin-top: 10px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.team-name-desc {
+    margin-bottom: 10px;
+}
+
+.team-icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    color: white;
+    border: 3px solid white;
+    border-radius: 100px;
+    text-align: center;
+}
+
+.team-icon .fa {
+    margin-top: 7px;
+}
+
+.team-slogan {
+    margin-top: 40px;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+
+/* Kontakt */
+
+.contact {
+    background-color: rgb(118, 143, 197);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.contact-header {
+    font-weight: lighter;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.contact-subheader {
+    color: white;
+    font-weight: lighter;
+}
+
+.contact-methods {
+    color: white;
+    list-style-type: none;
+}
+
+.contact-methods li {
+    width: 50%;
+    float: left;
+    font-weight: lighter;
+    height: 2.5em;
+}
+
+.contact-methods .fa {
+    font-size: 150%;
+}
+
+.contact-icon {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+}
+
+.contact-form {
+    margin-bottom: 0px;
+}
+
+.contact-input {
+    width: 100%;
+    margin-bottom: 28px;
+}
+
+.contact-message {
+    height: 143px;
+}
+
+.contact-input:focus,
+input.contact-input:focus {
+    border: 1px solid grey;
+    background-color: rgb(235, 235, 235);
+}
+
+input.contact-submit[type="submit"] {
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 0px;
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: rgb(118, 143, 197);
+}
+
+.footer {
+    border-top: grey;
+}
+
+.footer-text p {
+    color: white;
+    text-align: center;
+    font-style: lighter;
+}
+
+.footer-text a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-hr {
+    margin-top: 0px;
+}

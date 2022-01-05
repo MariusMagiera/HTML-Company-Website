@@ -1,0 +1,109 @@
+/* Header Bereich */
+
+.header {
+    height: 620px;
+    background-image: url("../img/header_dark.jpg");
+    background-size: cover;
+    background-position: 50% 65%;
+}
+
+.header-navbar-links {
+    color: white;
+    float: right;
+    margin-top: 50px;
+    display: none;
+    @media ($bp-larger-than-tablet) {
+        display: block;
+    }
+}
+
+.header-navbar-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-navbar-links a:hover {
+    text-decoration: none;
+    color: grey;
+    transition: all 1s;
+}
+
+.header-navbar-links li {
+    float: left;
+    list-style-type: none;
+    margin-left: 26px;
+    text-shadow: 0px 0px 3px black;
+}
+
+.header-brand-wrapper {
+    margin-top: 50px;
+    float: left;
+}
+
+.header-brand {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 150%;
+    display: block;
+    margin-top: -10%;
+    text-shadow: 0px 0px 3px black;
+}
+
+.header-brand:hover {
+    color: grey;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 150%;
+    display: block;
+    margin-top: -5%;
+    text-shadow: 0px 0px 3px black;
+    transition: all 0.5s;
+}
+
+.slogan {
+    padding-top: 100px;
+    color: white;
+    text-align: center;
+    text-shadow: 0px 0px 3px black;
+}
+
+.slogan-top {
+    font-size: 170%;
+    font-weight: lighter;
+}
+
+.slogan-bottom {
+    font-size: 260%;
+    font-weight: bold;
+}
+
+.slogan-button {
+    color: white;
+    text-shadow: 0px 0px 3px black;
+}
+
+.slogan-button:hover,
+.slogan-button a:hover {
+    color: grey;
+}
+
+.slogan-button a {
+    text-decoration: none;
+    color: white;
+}
+
+#side-menu-trigger {
+    float: right;
+    color: white;
+    margin-top: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 200%;
+    height: inherit;
+    @media ($bp-larger-than-tablet) {
+        display: none;
+    }
+}

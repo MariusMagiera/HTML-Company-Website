@@ -1,0 +1,15 @@
+/* load skeleton from sass version */
+
+@import "../vendor/skeleton-sass/skeleton";
+$landing-padding: 100px;
+// Load scss files for different parts
+@import "parts/main";
+@import "parts/header";
+@import "parts/sidenav";
+@import "parts/service";
+@import "parts/feature";
+@import "parts/feature";
+@import "parts/clients";
+@import "parts/team";
+@import "parts/contact";
+@import "parts/footer";
